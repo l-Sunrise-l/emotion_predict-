@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 import tensorflow as tf
 from keras import backend as K
 
-
+# Скачать данные можно по этой ссылке: https://drive.google.com/drive/folders/18n4XnjsXSi4iNpw6VmEWPHq-_wWOes3R?usp=sharing
 class emotion_model():
     def __init__(self, path_to_model):
         super().__init__()
